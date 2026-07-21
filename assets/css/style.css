@@ -1,38 +1,31 @@
-/* Box sizing */
-
-*,
-*::before,
-*::after
-{
-    box-sizing: border-box;
+header{
+    background-color: blue;
+    color: white;
 }
 
-/* Remove default marfins */
-* {
-    margin: 0;
+/* header>nav>ul{
+    display: flex;
+    li{
+        list-style: none;
+    }
+} */
+
+.flex{
+    display: flex;
 }
 
-/* Improves text rendering */
-html {
-    scroll-behavior: smooth;
-    -webkit-text-size-adjust: 100%;
+.justify-content-between{
+    justify-content:space-between;
 }
 
-body {
-    min-height: 100vh;
-    line-height: 1.5;
-    font-family: optimizeLegibility;
-}
-/* Better media defaults */
-img,picture,video,canvas,svg {
-    display: block;
-    max-width: 100%;
-
+.align-items-center{
+align-items: center;
 }
 
-/* Links */
-a{
-    color: inherit;
+a.no-decoration{
     text-decoration: none;
 }
-gi
+
+.hover-yellow:hover{
+    color: yellow;
+}

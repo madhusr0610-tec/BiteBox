@@ -1,6 +1,9 @@
 header{
+    height: 6vh;
+    min-height:30px;
+    padding: 5px;
     background-color: blue;
-    color: white;
+    color: slateblue;
 }
 
 /* header>nav>ul{
@@ -28,4 +31,11 @@ a.no-decoration{
 
 .hover-yellow:hover{
     color: yellow;
+}
+
+img.h-100{
+    height= 2em;
+}
+.flex{
+    display: flex;
 }

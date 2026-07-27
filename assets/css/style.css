@@ -29,11 +29,8 @@ header{
     justify-content: flex-start;
     align-items: center;
 }
-header>nav>u1{
-    font-size: 20px;
-    gap: 40px;
-    list-style: none;
-}
+
+
 .hower-yellow:hover{
     color: yellow;
 }
@@ -60,7 +57,11 @@ button.login{
 .gap-basic{
     gap: 5px;
 }
-
+header>nav>u1{
+    font-size: 20px;
+    gap: 40px;
+    list-style: none;
+}
 .position-fixed{
     position: fixed;
     width: 100%;
@@ -84,4 +85,8 @@ footer{
 .bg-dark{
     background-color: green;
     color: aqua;
+}
+
+list{
+    gap: 20px;
 }

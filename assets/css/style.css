@@ -1,7 +1,6 @@
 header{
     padding: 5px;
-    background-color: palegreen;
-    color: white;
+    max-height: 30px;
 }
 
 /* header>nav>ul{
@@ -62,3 +61,27 @@ button.login{
     gap: 5px;
 }
 
+.position-fixed{
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+footer{
+    height: 3vh;
+    min-height: 22px;
+    max-height: 25px;
+    bottom: 0;
+    text-align: center;
+    z-index: 1000;
+
+}
+
+.bg-dark{
+    background-color: green;
+    color: aqua;
+}

@@ -2,12 +2,11 @@
 
 *,
 *::before,
-*::after
-{
+*::after {
     box-sizing: border-box;
 }
 
-/* Remove default marfins */
+/* Remove default margins */
 * {
     margin: 0;
 }
@@ -15,23 +14,30 @@
 /* Improves text rendering */
 html {
     scroll-behavior: smooth;
-    -webkit-text-size-adjust: 100%;
+    --webkit-text-size-adjust : 100%;
 }
 
 body {
     min-height: 100vh;
     line-height: 1.5;
-    font-family: optimizeLegibility;
+    text-rendering: optimizeLegibility;
 }
+
 /* Better media defaults */
-img,picture,video,canvas,svg {
+
+img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
 
 }
 
 /* Links */
-a{
+a {
     color: inherit;
-    text-decoration: none;
+    /* text-decoration: none; */
+}
+
+/* Button */
+button, a, i {
+    cursor:pointer;
 }

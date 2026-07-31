@@ -4,54 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu | BiteBox</title>
-    <!--favicon-->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/logo_without_bg">
-    <!--custom stylesheets-->
+    <title>Menu | Bite Box</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo/logo.ico" type="image/x-icon">
+
+    <!-- FA - Icons -->
+    <script src="https://kit.fontawesome.com/c9da710483.js" crossorigin="anonymous"></script>
+
+    <!-- Custom stylesheet -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <!--font awesome-->
-    <script src="https://kit.fontawesome.com/11668ef3da.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+
+
 
 </head>
 
 <body>
     <header class="flex justify-content-between align-items-center position-fixed bg-dark">
         <div class="flex justify-content-between align-items-center">
-            <img class='h-100' src="assets/images/logo_without_bg.png" alt="Logo"> 
-            <h1>Bite Box</h1>
-
+            <img class='h-100' src="assets/images/logo/logo_without_bg.png" alt="">
+            <h1>
+                Bitebox
+            </h1>
         </div>
-
-        <nav class="a.no-decoration">
-            <ul class="flex justify-content-between align-items-centern ">
-                  <i class="fa-solid fa-user hower-yellow "></i>
-                  <li class="a.no-decoration">
-                    <a class="hower-yellow" href="menu.html"> Menu</a>
+        <nav>
+            <ul class="flex justify-content-between align-items-center gap-basic">
+                <li class="no-decoration">
+                    <a class="no-decoration hover-yellow " href="index.html">
+                        <i class="fa-regular fa-house"></i>
+                    </a>
                 </li>
-                <li class="a.no-decoration">
-                    <a class="hower-yellow" href=""> Home</a>
+                <li class="no-decoration">
+                    <a class="no-decoration hover-yellow" href="menu.html">Menu</a>
                 </li>
-                <li class="a.no-decoration">
-                    <a class="hower-yellow" href=""> About</a>
+                <li class="no-decoration">
+                    <a class="no-decoration hover-yellow" href="">About</a>
                 </li>
-                <li class="a.no-decoration">
-                    <a class="hower-yellow" href=""> Contact</a>
+                <li class="no-decoration">
+                    <a class="no-decoration hover-yellow" href="">Contact</a>
                 </li>
-                <li class="a.no-decoration">
-                    <a class="hower-yellow:" href=""> Cart</a>
+                <li class="no-decoration">
+                    <a class="no-decoration hover-yellow" href="">Cart</a>
                 </li>
-                <li class="a.no-decoration">
-                 <button class="btn hower-yellow">Login <i class="fa-solid fa-right-to-bracket"></i></button>
+                <li class="no-decoration">
+                    <button class="btn login">Login <i class="fa-solid fa-right-to-bracket"></i></button>
+                </li>
             </ul>
         </nav>
-
     </header>
-</body>
-<main> 
-</main>
-<footer class="position-fixed flex justify-content-between">&copy 2026 Bite Box </footer>
+
+    <main>
+
+        <section>
+            <h2>
+                Delicious cuisine awaits...
+            </h2>
+            <div class="menu-container">
+
+                <!-- Card start -->
+                <div class="card basic-shadow round-border">
+                    <i class="fa-solid fa-circle veg top-right"></i>
+                    <img src="" alt="" class="card-img">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Burger
+                        </h3>
+                        <div class="flex justify-content-between flex-col">
+                            <span class="card-ingredients">
+                                Cheese, Cabbage, Tomato, Onion
+                            </span>
+                            <div class="flex justify-content-between align-items-center"> 
+                                <p class="price">
+                                    Rs. <del>100</del>80
+                                </p>
+                                <h6 class="offer-percent">Flat 20% OFF</h6>
+                            </div>
+                            <button class="btn add-to-cart">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card End -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="position-fixed bg-dark">
+        &copy; 2026
+    </footer>
 </body>
 
 </html>

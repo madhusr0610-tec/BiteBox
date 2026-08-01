@@ -1,3 +1,9 @@
+body{
+    background: linear-gradient(
+        45deg,
+        rgb(255, 253, 253), rgb(196,196, 196), rgb(252, 250, 252), rgb(117,116,116)
+    );
+}
 header {
     height: 6vh;
     min-height: 30px;
@@ -13,6 +19,11 @@ main {
     
 }
 
+del{
+    font-size: italic;
+    font-weight: 100;
+
+}
 footer {
     height: 3vh;
     min-height: 22px;
@@ -90,6 +101,34 @@ button.login {
 
 
 /* Card */
+/* .menu-container{
+    display: flex;
+    gap: 10px ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+.menu-container{
+    max-width: 1000px;
+    /* margin:auto; */
+    margin-top: 50px;
+    display: grid;
+    gap: 10px ;
+    grid-template-columns: auto ;
+}
+
+.menu-container:first-child{
+    display: none;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 900px){
+.menu-container {
+    grid-template-columns: auto auto auto auto;
+}
+}
+
 .veg {
     color: green;
     border: 1px solid;
@@ -107,10 +146,14 @@ button.login {
     margin: 2px;
 }
 .card { 
+    margin: auto;
     width: 180px;
     height: 320px;
     overflow: hidden;
     position: relative;
+    transition-duration: 200ms;
+    background: linear-gradient((white,white)padding-box),
+    linear-gradient(50deg, red, green)border-box;
 
     .veg { 
         font-size: xx-small;

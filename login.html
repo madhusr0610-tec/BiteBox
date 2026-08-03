@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Bite Box</title>
+    <title>cart | Bite Box</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo/logo.ico" type="image/x-icon">
@@ -16,14 +16,13 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    
 
 </head>
 
 <body>
     <header class="flex justify-content-between align-items-center position-fixed bg-dark">
         <div class="flex justify-content-between align-items-center">
-            <img class = 'h-100' src="assets/images/logo/logo_without_bg.png" alt="">
+            <img class='h-100' src="assets/images/logo/logo_without_bg.png" alt="">
             <h1>
                 Bitebox
             </h1>
@@ -47,27 +46,45 @@
                 <li class="no-decoration">
                     <a class="no-decoration hover-yellow" href="">Cart</a>
                 </li>
-                <li class="no-decoration">
+                <!-- <li class="no-decoration">
                     <a href="login.html" class="btn login">Login <i class="fa-solid fa-right-to-bracket"></i></a>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <h2>
-                Delicious food in minutes!!!
-            </h2>
-            <button class="btn">
-                Order Now!!!
-            </button>
+        <section id="auth-container" class="basic-shadow round-border">
+            <form>
+                <fieldset>
+                    <div class="form-field">
+                        <label for="username-input">username</label>
+                        <input id="username-input" type="text">
+                    </div>
+                    <div class="form-field">
+                        <label for="pwd-input">username</label>
+                        <input id="pwd-input" type="password">
+                    </div>
+                    <div class="form-buttons">
+                        <button class="btn login">Log in</button>
+                    </div>
+                </fieldset>
+                <p>
+                    <div>Don't have an acount?</div>
+                    <div>
+                        <a href="">
+                            Sign Up
+                        </a>
+                    </div>
+                </p>
+            </form>
 
         </section>
+
     </main>
 
-    <footer class="position-fixed bg-dark"> 
-            &copy; 2026 
+    <footer class="position-fixed bg-dark">
+        &copy; 2026
     </footer>
 </body>
 

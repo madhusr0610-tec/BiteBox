@@ -201,7 +201,8 @@ a.login {
 /* Auth */
 #auth-container{
     width: 30%;
-    min-height: 40vh;
+    /* min-height: 40vh; */
+    /* max-width: 200px; */
     /* margin: auto;
     background-color: chartreuse; */
     position: fixed;
@@ -209,4 +210,56 @@ a.login {
     left: 50%;
     transform: translate(-50%,-50%);
 
+}
+/* #auth-container >h3{
+    border: 1px solid;
+    display: flex;
+} */
+
+input:focus{
+    outline: 1px red solid;
+}
+
+label{
+    visibility: hidden;
+}
+
+input::placeholder{
+    front-size: xx-small;
+}
+
+form{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+form>div{
+    padding: 10px;
+    font-size: xx-small;
+}
+
+.form-buttons> button{
+    font-size: xx-small;
+
+}
+
+.red{
+    color: red;
+}
+
+.p-5{
+    padding: 5px;
+}
+
+.p-10{
+    padding: ;
 }

@@ -47,46 +47,42 @@
                 <li class="no-decoration">
                     <a class="no-decoration hover-yellow" href="">Cart</a>
                 </li>
-                <li class="no-decoration">
+                <!-- <li class="no-decoration">
                     <button class="btn login">Login <i class="fa-solid fa-right-to-bracket"></i></button>
-                </li>
+                </li> -->
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section>
-            <h2>
-                Delicious cuisine awaits...
-            </h2>
-            <div class="menu-container">
-
-                <!-- Card start -->
-                <div class="card basic-shadow round-border">
-                    <i class="fa-solid fa-circle veg top-right"></i>
-                    <img src="" alt="" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">
-                            Burger
-                        </h3>
-                        <div class="flex justify-content-between flex-col">
-                            <span class="card-ingredients">
-                                Cheese, Cabbage, Tomato, Onion
-                            </span>
-                            <div class="flex justify-content-between align-items-center"> 
-                                <p class="price">
-                                    Rs. <del>100</del>80
-                                </p>
-                                <h6 class="offer-percent">Flat 20% OFF</h6>
-                            </div>
-                            <button class="btn add-to-cart">Add To Cart</button>
-                        </div>
+        <section id="auth-container" class="basic-shadow round-border p-10">
+            <h3>
+                Login to Bite<span class="red">Box</span>
+            </h3>
+            <form class="flex justify-content-between align-items-center p10">
+                <fieldset class="flex justify-content-between align-items-center gap-basic">
+                    <div class="form-field">
+                        <label for="username-input">username</label>
+                        <input id="username-input" type="text" class="round-border p-5" placeholder="username">
                     </div>
-                </div>
-                <!-- Card End -->
-
-            </div>
+                    <div class="form-field">
+                        <label for="pwd-input">password</label>
+                        <input id="pwd-input" type="password" class="round-border p-5" placeholder="password">
+                    </div>
+                    <div class="form-buttons">
+                        <button class="btn login">Log in</button>
+                    </div>
+                </fieldset>
+                <p>
+                    <div>Already have an account?</div>
+                    <div>
+                        <a href="login.html">
+                            Sign Up
+                        </a>
+                    </div>
+                </p>
+            </form>
 
         </section>
 

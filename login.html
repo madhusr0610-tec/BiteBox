@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cart | Bite Box</title>
+    <title>Menu | Bite Box</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/logo/logo.ico" type="image/x-icon">
@@ -13,8 +13,10 @@
     <script src="https://kit.fontawesome.com/c9da710483.js" crossorigin="anonymous"></script>
 
     <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="assets/css/variables.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
 
 
 </head>
@@ -38,52 +40,57 @@
                     <a class="no-decoration hover-yellow" href="menu.html">Menu</a>
                 </li>
                 <li class="no-decoration">
+                    <a class="no-decoration hover-yellow deals" href="deals.html">Hot Deals!</a>
+                </li>
+                <li class="no-decoration">
                     <a class="no-decoration hover-yellow" href="">About</a>
                 </li>
                 <li class="no-decoration">
                     <a class="no-decoration hover-yellow" href="">Contact</a>
                 </li>
                 <li class="no-decoration">
-                    <a class="no-decoration hover-yellow" href="">Cart</a>
+                    <a class="no-decoration hover-yellow" href="cart.html">Cart</a>
                 </li>
                 <!-- <li class="no-decoration">
-                    <a href="login.html" class="btn login">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+                    <button class="btn login">Login <i class="fa-solid fa-right-to-bracket"></i></button>
                 </li> -->
             </ul>
         </nav>
     </header>
 
     <main>
+
         <section id="auth-container" class="basic-shadow round-border p-10">
             <h3>
                 Login to Bite<span class="red">Box</span>
             </h3>
-            <form class="flex justify-content-between align-items-center p10">
+            <form class="flex justify-content-between align-items-center p-10">
                 <fieldset class="flex justify-content-between align-items-center gap-basic">
                     <div class="form-field">
                         <label for="username-input">username</label>
-                        <input id="username-input" type="text" class="round-border p-5" placeholder="username">
+                        <input id="username-input" type="text" class="round-border p-5" placeholder="Username">
                     </div>
                     <div class="form-field">
                         <label for="pwd-input">password</label>
-                        <input id="pwd-input" type="password" class="round-border p-5" placeholder="password">
+                        <input id="pwd-input" type="password" class="round-border p-5" placeholder="Password">
                     </div>
                     <div class="form-buttons">
-                        <button class="btn login">Log in</button>
+                        <button class="btn login">
+                            Log in
+                        </button>
                     </div>
                 </fieldset>
-                <p>
-                    <div>Don't have an acount?</div>
+                <div>
+                    <div>Don't have an account?</div>
                     <div>
                         <a href="register.html">
-                            Sign Up
+                            Signup Now
                         </a>
                     </div>
-                </p>
+                </div>
             </form>
-
         </section>
-
+        
     </main>
 
     <footer class="position-fixed bg-dark">
